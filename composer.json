@@ -1,0 +1,35 @@
+{
+    "name": "madpilot78/php-cs-fixer-config",
+    "description": "Personal coding standards for the php cs fixer",
+    "license": "MIT",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Christoph Wurst",
+            "email": "christoph@winzerhof-wurst.at"
+        },
+        {
+            "name": "Guido Falsi",
+            "email": "mad@madpilot.net"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "php-cs-fixer/shim": "^3.17"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.42"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "madpilot78\\PhpCsFixerConfig\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    }
+}
