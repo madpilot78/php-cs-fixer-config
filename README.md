@@ -1,6 +1,6 @@
 # Madpilot78 PHP CS Fixer Config
 
-Madpilot78 coding standards for the [php cs fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
+Madpilot78 coding standards for [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
 
 Based on [Nexcloud Coding Standard](https://github.com/nextcloud/coding-standard).
 
@@ -32,6 +32,7 @@ $config
 	->notPath('src')
 	->notPath('vendor')
 	->in(__DIR__);
+
 return $config;
 ```
 
