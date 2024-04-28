@@ -21,7 +21,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use madpilot78\php-cs-fixer-config\Config;
+use madpilot78\PhpCsFixerConfig\Config;
 
 $config = new Config();
 $config
