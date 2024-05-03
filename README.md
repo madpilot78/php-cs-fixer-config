@@ -25,13 +25,14 @@ use madpilot78\PhpCsFixerConfig\Config;
 
 $config = new Config();
 $config
-	->getFinder()
-	->ignoreVCSIgnored(true)
-	->notPath('build')
-	->notPath('l10n')
-	->notPath('src')
-	->notPath('vendor')
-	->in(__DIR__);
+$config
+    ->setRules([ // Added to default ones
+        '@PHP82Migration' => true,
+    ])
+    ->getFinder()
+    ->ignoreVCSIgnored(true)
+    ->notPath('vendor')
+    ->in(__DIR__);
 
 return $config;
 ```
