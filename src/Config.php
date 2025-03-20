@@ -30,7 +30,6 @@ class Config extends Base
         'native_type_declaration_casing' => true,
         'no_short_bool_cast' => true,
         'no_unset_cast' => true,
-        'class_attributes_separation' => true,
         'class_attributes_separation' => ['elements' => ['method' => 'one']],
         'ordered_types' => true,
         'multiline_comment_opening_closing' => true,
